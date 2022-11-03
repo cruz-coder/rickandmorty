@@ -1,0 +1,52 @@
+.background-sub {
+	background-image: url("../assets/img/background-home.webp");
+	width: 100%;
+}
+.background-form {
+	background-color: rgba(255, 255, 255, 0.322);
+	text-align: center;
+	width: 50%;
+	margin: 50px auto 50px auto;
+	-webkit-box-shadow: 1px 2px 30px 8px rgb(255, 255, 255);
+	-moz-box-shadow: 1px 2px 30px 8px rgb(255, 255, 255);
+	box-shadow: 1px 2px 30px 8px rgb(255, 255, 255);
+	h3 {
+		font-size: 30px;
+		padding: 30px;
+		margin: auto;
+	}
+}
+.container-sub {
+	width: 80%;
+	form {
+		button {
+			margin: 10px;
+		}
+		* {
+			font-family: 'Roboto', sans-serif;
+			text-transform: capitalize;
+		}
+		label {
+			font-size: 18px;
+			color: aliceblue;
+		}
+	}
+}
+form {
+	input {
+		border-radius: 5px;
+		border-top: 1px solid rgb(255, 255, 255);
+	}
+}
+button {
+	grid-column: 4/5;
+	color: #ffffff;
+	background-color: #2d63c8;
+	font-size: 19px;
+	border: 1px solid #2d63c8;
+	cursor: pointer;
+	&:hover {
+		color: #2d63c8;
+		background-color: #ffffff;
+	}
+}

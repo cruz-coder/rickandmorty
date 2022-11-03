@@ -1,0 +1,16 @@
+h3 {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+.grid-home {
+	background-image: url("../assets/img/background-home.webp");
+	width: 100%;
+}
+.img-home {
+	img {
+		width: 40%;
+		display: block;
+		margin: auto;
+		animation: rotate 3s;
+	}
+}

@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+	.img-home {
+		img {
+			padding: 30px 0 30px 0;
+			width: 80%;
+		}
+	}
+	.chapter {
+		grid-column: 1/13;
+	}
+	.family {
+		grid-template-columns: repeat(1,1fr);
+	}
+	.container-card {
+		grid-template-columns: repeat(1,1fr);
+	}
+	iframe {
+		width: 100%;
+		height: 500px;
+	}
+}

@@ -1,0 +1,30 @@
+footer {
+	width: 100%;
+	margin: auto;
+	bottom: 0;
+	.social-bar {
+		padding: 50px 0 0 0;
+		margin: auto;
+		ul {
+			text-align: center;
+			li {
+				a {
+					i{
+						color:white;
+					}
+					text-decoration: none;
+					&:hover {
+						color: rgb(255, 255, 255);
+					}
+				}
+				margin: 10px;
+				padding: 10px;
+				border-radius: 50px;
+				display: inline;
+				&:hover {
+					background-color: rgb(0, 228, 11);
+				}
+			}
+		}
+	}
+}

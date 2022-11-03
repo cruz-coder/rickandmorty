@@ -1,0 +1,27 @@
+header {
+	padding: 25px;
+	text-align: center;
+	nav {
+		ul {
+			li {
+				display: inline;
+				align-items: center;
+				align-content: center;
+				a {
+					font-family: 'Bebas Neue', cursive;
+					font-size: 25px;
+					text-decoration: none;
+					color: white;
+					margin: 15px;
+					&:hover {
+						color: rgb(0, 238, 255);
+						border-bottom: 2px solid rgb(0, 255, 13);
+					}
+				}
+				.nav-adidas {
+					font-family: 'Poppins', sans-serif;
+				}
+			}
+		}
+	}
+}

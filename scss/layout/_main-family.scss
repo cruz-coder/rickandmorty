@@ -1,0 +1,36 @@
+.family {
+	* {
+		padding: 5px;
+	}
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-gap: 40px;
+}
+.background-family {
+	background-image: url("../assets/img/background-home.webp");
+	width: 100%;
+}
+.container-family {
+	width: 95%;
+	margin: auto;
+}
+.family-background {
+	text-align: center;
+	background-color: white;
+	padding: 10px;
+}
+.family-summer {
+	animation: family 1s;
+}
+.family-morty {
+	animation: family 2s;
+}
+.family-jerry {
+	animation: family 1s;
+}
+.family-beth {
+	animation: family 2s;
+}
+.family-rick {
+	animation: family 1s;
+}
