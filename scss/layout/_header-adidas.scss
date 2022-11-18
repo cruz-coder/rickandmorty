@@ -1,6 +1,6 @@
 .box-shadow {
 	margin: auto;
-	background-color: white;
+	background-color: $color-white;
 	width: 95%;
 	-webkit-box-shadow: 1px 2px 30px -8px rgba(66, 68, 90, 1);
 	-moz-box-shadow: 1px 2px 30px -8px rgba(66, 68, 90, 1);
@@ -12,7 +12,7 @@
 	grid-template-columns: repeat(12,1fr);
 	div {
 		img {
-			background-color: white;
+			background-color: $color-white;
 			width: 200px;
 		}
 	}
@@ -24,7 +24,7 @@
 	grid-column: 2 / 3;
 	a {
 		img {
-			border-left: 1px solid black;
+			border-left: 1px solid $color-black;
 			padding-left: 5px;
 		}
 	}

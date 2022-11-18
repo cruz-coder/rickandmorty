@@ -8,6 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="Spanish">
     <title>RickandMorty</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo-adidas2.png">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
@@ -20,13 +21,13 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-                        <ul>
-                            <li><a href="./index.html">home</a></li>
-                            <li><a href="./pages/family.html">family</a></li>
-                            <li><a href="./pages/chapter.html">chapter</a></li>
-                            <li><a href="./pages/subcripcion.html">subcripcion</a></li>
-                            <li><a class="nav-adidas" href="../pages/adidas.html">#adidas</a></li>
+                    <div class="collapse navbar-collapse justify-content-md-center show" id="navbarsExample08">
+                        <ul class="navbar-nav">
+                            <li class="nav-item" ><a  href="./index.html">home</a></li>
+                            <li class="nav-item"><a href="./pages/family.html">family</a></li>
+                            <li class="nav-item"><a  href="./pages/chapter.html">chapter</a></li>
+                            <li class="nav-item"><a  href="./pages/subcripcion.html">subcripcion</a></li>
+                            <li class="nav-item"><a class=" nav-adidas"  href="./pages/adidas.html">#adidas</a></li>
                         </ul>
                     </div>
                 </div>
@@ -34,7 +35,12 @@
         </header>
         <main>
             <section class="img-home">
-                <img src="./assets/img/wp6737038.png" alt="background">
+                <picture>
+                    <img src="./assets/img/wp6737038.png" alt="pricipal-rickandmorty">
+                    <source  media="(min-width:576px)" srcset="./assets/img/mobile.png">
+                    <source  media="(min-width:768px)" srcset="./assets/img/tablet.png">
+                </picture>
+                <!---img src="./assets/img/wp6737038.png" alt="background-star">-->
             </section>
         </main>
         <footer>

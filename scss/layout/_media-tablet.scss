@@ -1,8 +1,10 @@
 @media (max-width: 768px) {
-	.img-home {
-		img {
-			padding: 30px 0 30px 0;
-			width: 80%;
+	header{
+		text-align: left;
+	}
+	footer{
+		.social-bar{
+			position: inherit;
 		}
 	}
 	.chapter {

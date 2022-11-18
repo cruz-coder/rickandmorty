@@ -2,6 +2,10 @@
 	padding: 10px 10px 10px 0px;
 	width: 100%;
 	text-align: right;
-	background-color: rgb(0, 0, 0);
-	color: white;
+	background-color: $color-black;
+	color:$color-black;
+	position: relative;
+	p{
+		color: $color-white;
+	}
 }

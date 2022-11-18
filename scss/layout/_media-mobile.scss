@@ -1,10 +1,13 @@
-@media (max-width: 576px) {
-	.img-home {
-		img {
-			padding: 100px 0 100px 0;
-			width: 80%;
+@media screen and (max-width: 576px) {
+	footer{
+		.social-bar{
+			position: inherit;
 		}
 	}
+	.grid-home{
+		background-attachment: fixed ;
+	}
+	
 	.family {
 		grid-column: 1/6;
 	}
